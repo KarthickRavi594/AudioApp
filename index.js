@@ -2,7 +2,6 @@ const axios = require("axios");
 const API = require("./const");
 const fs = require("fs");
 var bodyParser = require("body-parser");
-const { initializeApp } = require("firebase-admin/app");
 const admin = require("firebase-admin");
 const port = process.env.PORT || 3456;
 var express = require("express");
