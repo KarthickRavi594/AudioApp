@@ -1,5 +1,5 @@
 module.exports = {
-  API_Key: "f0da691f16a740cd8893fa2d6209cf12",
+  API_Key: "efcbd72b3faf4c129aec026e3e65c699",
   firebaseConfig: {
     apiKey: "AIzaSyDnI-_KNfKJ7ZS5LL-1sR-ee7opUxghibU",
     authDomain: "audiochat-64920.firebaseapp.com",
@@ -22,5 +22,10 @@ module.exports = {
     "token_uri": "https://oauth2.googleapis.com/token",
     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-gitw2%40audiochat-64920.iam.gserviceaccount.com"
-  }  
+  },
+  data: {
+    audio_url: 'https://storage.googleapis.com/aai-docs-samples/espn.m4a',
+    webhook_url: "https://example.com/webhook"
+  },
+  base_url: "https://api.assemblyai.com/v2"
 };
