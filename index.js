@@ -64,7 +64,7 @@ app.post(
   upload.single("file"),
   async (request, responseAPI, next) => {
     try {
-      let existingRecord = await getFirebase(transcriptId)
+      let existingRecord = await getFirebase()
       const existDocument = checkExistingRecord(existingRecord, request.file.path)
       if (existDocument.length > 0){
         let uploadUrl = "";
