@@ -48,6 +48,7 @@ function getFirebase() {
   const updateFile = dataBase
       .collection("audio")
       .get();
+    console.log('update', updateFile)
     return updateFile.data();
 }
 function insertFirebase(insertObject) {
